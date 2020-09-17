@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+#copete {
+    
+    background-color: #EAC926;
+    padding: 0px 4px
+}
+
+.fondoAmarll{
+    background-color: #EAC926;
+}
+
+
+#logo {
+   
+    padding: 10px 0;
+    
+}
+
+
+#productos {
+    margin: 25px 0;
+}
+
+#titulo1 , #titulo2 {
+    margin-top: 38px;
+    margin-bottom: 52px;
+    font-size: 24px;
+    font-weight: 600
+}
+
+
+p {
+    margin: 0;
+}
+
+#search {
+    padding: 10px 0;
+}
+
+.form-control {
+    height: 10%;
+}
+
+
+#compra {
+    padding: 16px 0;
+    padding-left: 61px;
+}
+
+#nav1{
+    padding: 0;
+    background-color:#EAC926 ;
+    padding: 10px;
+    
+
+}
+
+#nav2 {
+    text-align: right;
+    padding: 0;
+    background-color:#EAC926 ;
+    padding: 10px 0;
+    
+}
+
+#nav2 a , #nav1  a{
+    text-decoration: none;
+    color: black;
+   
+   
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+#foot1 , #foot2 , #foot3 {
+    margin: 50px 0;
+    text-align: center;
+    
+   
+}
+
+h4 {
+    text-align: center;
+    font-family: Roboto;
+    padding: 20px 0;
+}
+
+p {
+    font-family: Roboto;
+    text-align: justify;
+}
+
+#imgFoot1 , #imgFoot2 ,#imgFoot3 {
+    font-size: 40px;
+    color: #1259c3;
+}
+
+#colorfoot {
+    background-color: white;
+    margin-top: 70px;
+}
+
+@media (max-width: 480px){
+
+
+
+#esconderNav {
+    display: none;
+}
+
+}
+
+@media (min-width: 576px){
+    .col-sm-6 {
+        padding: 15px 0;
+    }
+}
